@@ -1,142 +1,104 @@
 # Semana 2 - Tipos de dados (parte 1) - Exercício de apoio
 
-# Exercício 2.1
+# 2.1
 
-# (a) A soma dos 5 primeiros inteiros positivos:
+# A soma dos 5 primeiros inteiros positivos.
+soma = 1 + 2 + 3 + 4 + 5
 
-soma1 = 1 + 2 + 3 + 4 + 5
+# A idade média de Sara (idade 23), Mark (idade 19) e Fátima (idade 31).
+media = (23 + 19 + 31) / 3
 
-# (b) A idade média de Sara (idade 23), Mark (idade 19) e Fátima (idade 31):
+# O número de vezes que 73 cabe em 403.
+divisao = 403 // 73
 
-idadeMedia = (23 + 19 + 31) / 3
-
-# (c) O número de vezes que 73 cabe em 403:
-
-resultado = 403 // 73
-
-# (d) O resto de quando 403 é dividido por 73:
-
+# O resto da divisão de 403 por 73.
 resto = 403 % 73
 
-# (e) 2 à 10ª potência.
-
+# 2 à 10ª potência.
 potencia = 2 ** 10
 
-# (f) O valor absoluto da distância entre a altura de Sara (54 polegadas) e a altura de Mark (57 polegadas).
+# O valor absoluto da distância entre a altura de Sara (54 polegadas) e a altura de Mark (57 polegadas).
+distancia = abs(54 - 57)
 
-valor = 57 - 54
+# O menor preço entre os seguintes preços: R$ 34,99; R$ 29,95 e R$ 31,50.
+menor = min(34.99, 29.95, 31.50)
 
-# (g) O menor preço entre os seguintes preços: R$ 34,99, R$ 29,95 e R$ 31,50.
+# 2.2
 
-listaDePrecos = [34.99, 29.95, 31.50]
+# A soma de 2 e 2 é menor que 4.
+soma = 2 + 2
+menor = soma < 4
 
-menorPreco = min(listaDePrecos)
+# O valor de 7 // 3 é igual a 1 + 1.
+divisao = 7 // 3
+igual = divisao == 1 + 1
 
+# A soma de 3 ao quadrado e 4 ao quadrado é igual a 25.
+soma = 3 ** 2 + 4 ** 2
+igual = soma == 25
 
-# Exercício 2.2
+# A soma de 2, 4 e 6 é maior que 12.
+soma = 2 + 4 + 6
+maior = soma > 12
 
-# (a) A soma de 2 e 2 é menor que 4.
+# 1387 é divisível por 19.
+divisao = 1387 % 19
+divisivel = divisao == 0
 
-isTrue1 = 2 + 2 < 4
-# false
+# 31 é par.
+par = 31 % 2 == 0
 
-# (b) O valor de 7 // 3 é igual a 1 + 1.
+# O preço mais baixo dentre R$ 34,99; R$ 29,95 e R$ 31,50 é menor que R$ 30,00.
+menor = min(34.99, 29.95, 31.50)
+menor = menor < 30.00
 
-isTrue2 = 7 // 3 == 1 + 1
-# true
+# 2.3
 
-# (c) A soma de 3 ao quadrado e 4 ao quadrado é igual a 25.
-
-isTrue3 = (3 ** 2) + (4 ** 2) == 25
-# true
-
-# (d) A soma de 2, 4 e 6 é maior que 12.
-
-isTrue4 = 2 + 4 + 6 > 12
-# false
-
-# (e) 1387 é divisível por 19.
-
-isTrue5 = 1387 % 19 == 0
-# true
-
-# (f) 31 é par. (Dica: o que o resto lhe diz quando você divide por 2?)
-
-isPair = 31 % 2 == 0
-# false
-
-# (g) O preço mais baixo dentre R$ 34,99, R$ 29,95 e R$ 31,50 é menor que R$ 30,00.*
-
-listaDePrecos = [34.99, 29.95, 31.50]
-
-menorPreco = min(listaDePrecos)
-
-isTrue6 = menorPreco < 30
-# true
-
-
-# Exercício 2.3
-
-# (a) Atribua o valor inteiro 3 à variável a.
-
+# Atribua o valor inteiro 3 à variável a.
 a = 3
 
-# (b) Atribua 4 à variável b.
-
+# Atribua 4 à variável b.
 b = 4
 
-# (c) Atribua à variável c o valor da expressão a * a + b * b.
-
+# Atribua à variável c o valor da expressão a * a + b * b.
 c = a * a + b * b
 
-
-# Exercício 2.4
+# 2.4
 
 s1 = 'ant'
 s2 = 'bat'
 s3 = 'cod'
 
-# (a) 'ant bat cod'
+# A
+print(s1 + ' ' + s2 + ' ' + s3)
 
-frase1 = s1 + ' ' + s2 + ' ' + s3
+# B
+print(10 * (s1 + ' '))
 
-# (b) ant ant ant ant ant ant ant ant ant ant'
+# C
+print(s1 + ' ' + 2 * (s2 + ' ') + 3 * (s3 + ' '))
 
-frase2 = (s1 + ' ') * 9 + s1
+# D
+print(7 * (s1 + ' ' + s2 + ' '))
 
-# (c) 'ant bat bat cod cod cod'
+# E
+print(5 * (2 * s2 + s3 + ' '))
 
-frase3 = s1 + ' ' + 2 * (s2 + ' ') + 3 * (s3 + ' ')
-
-# (d) 'ant bat ant bat ant bat ant bat ant bat ant bat ant bat'
-
-frase4 = (s1 + ' ' + s2 + ' ') * 7
-
-# (e) 'batbatcod batbatcod batbatcod batbatcod batbatcod'
-
-frase5 = (s2 + s2 + s3 + ' ') * 5
-
-
-# Exercício 2.5
+# 2.5
 
 s = '0123456789'
 
-# (a) '0'
+# A
+print(s[0])
 
-s[0]
+# B
+print(s[1])
 
-# (b) '1'
+# C
+print(s[6])
 
-s[1]
+# D
+print(s[8])
 
-# (c) '6'
-
-s[-4]
-
-# (d) '8'
-
-s[-2]
-
-# (e) '9'
-
-s[-1]
+# E
+print(s[9])
