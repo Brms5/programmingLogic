@@ -12,5 +12,4 @@ x = 2
 y = 3
 z = -4
 q = (x**y)/abs(-4)
-print(q)
-
+# print(q)
