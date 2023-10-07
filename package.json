@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Brms5/programmingLogic#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
