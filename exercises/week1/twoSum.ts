@@ -12,7 +12,6 @@ function twoSum(nums: number[], target: number): number[] {
 
     // Se o complemento já estiver no Map, eu retorno o index do complemento e o index atual.
     if (numMap.has(complement)) {
-      console.log(numMap.get(complement));
       return [numMap.get(complement)!, i];
     }
 
