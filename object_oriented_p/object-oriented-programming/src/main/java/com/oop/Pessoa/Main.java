@@ -1,14 +1,16 @@
-package com.oop;
+package com.oop.Pessoa;
 
 import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
 
-        // Pessoa pessoa = new Pessoa("João", "123.456.789-00", new Date());
-
+        // Herança
         Funcionario funcionario = new Funcionario("Maria", "987.654.321-00", new Date());
+        
+        // Polimorfismo
+        Pessoa pessoa = funcionario;
 
-        System.out.println(funcionario.nome);
+        System.out.println(pessoa.nome);
     }
 }
