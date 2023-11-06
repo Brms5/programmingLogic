@@ -1,3 +1,5 @@
+// Problema twoSum do LeetCode se refere a encontrar dois números que somados resultam em um alvo.
+
 function twoSum2(nums, target) {
   // Eu crio um Map para armazenar 2 números, o valor e seu index.
   var numMap = new Map();

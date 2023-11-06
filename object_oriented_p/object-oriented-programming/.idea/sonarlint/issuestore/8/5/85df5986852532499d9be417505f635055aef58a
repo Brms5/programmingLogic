@@ -1,0 +1,30 @@
+
+o
+java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡‰ë¾
+t
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡½žûÿÿÿÿ
+b
+java:S1192="LDefine a constant instead of duplicating this literal "HashTable: " 4 times.(‹ú‚ë
+_
+java:S11920"JDefine a constant instead of duplicating this literal "HashMap: " 4 times.(µÓH
+_
+java:S1192"IDefine a constant instead of duplicating this literal "Vereador" 3 times.(³ÖÈû
+a
+java:S1192"KDefine a constant instead of duplicating this literal "Governador" 3 times.(“ßê¡
+_
+java:S1192"IDefine a constant instead of duplicating this literal "Prefeito" 3 times.(žˆ‘
+f
+java:S1192"KDefine a constant instead of duplicating this literal "Presidente" 3 times.(šëæ”þÿÿÿÿ
+q
+java:S11497"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¡½žûÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Æá¢·ÿÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(‚¾Ç
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(¼Ñ¶ÿþÿÿÿÿ
+M	java:S1060"9Replace this use of System.out or System.err by a logger.(µÓH
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(µÖâýÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(¼‚õ‡øÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(‘æ³çÿÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(‹ú‚ë
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ý‡ÓÜ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(­ç›†þÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(Ô¶ÒÐ
